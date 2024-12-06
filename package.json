@@ -1,0 +1,33 @@
+{
+  "name": "native_translation",
+  "version": "1.0.0",
+  "main": "expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.21.0",
+    "@react-native-clipboard/clipboard": "^1.14.3",
+    "@react-native-picker/picker": "^2.7.5",
+    "@supabase/supabase-js": "^2.47.1",
+    "deepl": "^1.0.13",
+    "deepl-node": "^1.14.0",
+    "expo": "^52.0.14",
+    "expo-clipboard": "~6.0.3",
+    "expo-status-bar": "~1.12.1",
+    "openai": "^4.70.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "0.74.5",
+    "react-native-config": "^1.5.3",
+    "react-native-dotenv": "^3.4.11",
+    "react-native-web": "~0.19.13"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
